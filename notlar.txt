@@ -1,0 +1,6 @@
+
+pyinstaller --onefile yagmur.py
+
+dist _--içine icons ve conf.json , dosyalarını kopyala
+
+pyinstaller --onefile --noconsole --icon=1.ico yagmur.py
